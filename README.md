@@ -2,10 +2,11 @@
 
 Somente é necessário fazer um clone do projeto e executa-lo. Nenhuma configuração adicional é necessária.
 
-- É necessário o Java instalado. O gradle não é necessário ja que ele possui o wrapper no projeto. É possível usa-lo digitando ./gradlew <comando>
+- É necessário o Java 11 instalado. O gradle não é necessário ja que ele possui o wrapper no projeto. É possível usa-lo digitando ./gradlew <comando>
 - O projeto usa o banco de dados H2 que é embutido no sistema e reinicializado a cada deploy do projeto
 - Inicialmente o H2 é vazio
 - O profile é default, não é necessário informar
+- Para subir o projeto após clona-lo, user o comando gradle: ./gradlew bootRun
 
 **Bons e ruims**
 
