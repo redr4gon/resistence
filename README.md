@@ -6,7 +6,7 @@ Somente é necessário fazer um clone do projeto e executa-lo. Nenhuma configura
 - O projeto usa o banco de dados H2 que é embutido no sistema e reinicializado a cada deploy do projeto
 - Inicialmente o H2 é vazio
 - O profile é default, não é necessário informar
-- Para subir o projeto após clona-lo, user o comando gradle: ./gradlew bootRun
+- Para subir o projeto após clona-lo, use o comando gradle na raíz do projeto em um terminal linux: "./gradlew bootRun"
 
 **Bons e ruims**
 
