@@ -1,0 +1,27 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /resistence
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:resistence
+    username: resistence
+    password: resistence
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+
+
+#logging
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    reactor.netty.http.client: INFO
+    org.hibernate.sql: DEBUG
+    org.springframework.data.couchbase.repository.query: DEBUG
+    org.springframework.data.r2dbc: DEBUG
+
+
+
